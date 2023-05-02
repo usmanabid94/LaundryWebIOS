@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C2FF7D2A011C9600E6D434 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2FF7C2A011C9600E6D434 /* AppDelegate.swift */; };
+		18C2FF7F2A011C9600E6D434 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2FF7E2A011C9600E6D434 /* SceneDelegate.swift */; };
+		18C2FF812A011C9600E6D434 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2FF802A011C9600E6D434 /* ViewController.swift */; };
+		18C2FF842A011C9600E6D434 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C2FF822A011C9600E6D434 /* Main.storyboard */; };
+		18C2FF862A011C9900E6D434 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C2FF852A011C9900E6D434 /* Assets.xcassets */; };
+		18C2FF892A011C9900E6D434 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C2FF872A011C9900E6D434 /* LaunchScreen.storyboard */; };
+		18C2FF942A011C9A00E6D434 /* LaundryWebTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2FF932A011C9A00E6D434 /* LaundryWebTests.swift */; };
+		18C2FF9E2A011C9A00E6D434 /* LaundryWebUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2FF9D2A011C9A00E6D434 /* LaundryWebUITests.swift */; };
+		18C2FFA02A011C9A00E6D434 /* LaundryWebUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2FF9F2A011C9A00E6D434 /* LaundryWebUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C2FF902A011C9A00E6D434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C2FF712A011C9600E6D434 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C2FF782A011C9600E6D434;
+			remoteInfo = LaundryWeb;
+		};
+		18C2FF9A2A011C9A00E6D434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C2FF712A011C9600E6D434 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C2FF782A011C9600E6D434;
+			remoteInfo = LaundryWeb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C2FF792A011C9600E6D434 /* LaundryWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaundryWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C2FF7C2A011C9600E6D434 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18C2FF7E2A011C9600E6D434 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18C2FF802A011C9600E6D434 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18C2FF832A011C9600E6D434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C2FF852A011C9900E6D434 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C2FF882A011C9900E6D434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C2FF8A2A011C9A00E6D434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C2FF8F2A011C9A00E6D434 /* LaundryWebTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaundryWebTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C2FF932A011C9A00E6D434 /* LaundryWebTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryWebTests.swift; sourceTree = "<group>"; };
+		18C2FF992A011C9A00E6D434 /* LaundryWebUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaundryWebUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C2FF9D2A011C9A00E6D434 /* LaundryWebUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryWebUITests.swift; sourceTree = "<group>"; };
+		18C2FF9F2A011C9A00E6D434 /* LaundryWebUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryWebUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C2FF762A011C9600E6D434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C2FF8C2A011C9A00E6D434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C2FF962A011C9A00E6D434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C2FF702A011C9600E6D434 = {
+			isa = PBXGroup;
+			children = (
+				18C2FF7B2A011C9600E6D434 /* LaundryWeb */,
+				18C2FF922A011C9A00E6D434 /* LaundryWebTests */,
+				18C2FF9C2A011C9A00E6D434 /* LaundryWebUITests */,
+				18C2FF7A2A011C9600E6D434 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18C2FF7A2A011C9600E6D434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C2FF792A011C9600E6D434 /* LaundryWeb.app */,
+				18C2FF8F2A011C9A00E6D434 /* LaundryWebTests.xctest */,
+				18C2FF992A011C9A00E6D434 /* LaundryWebUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C2FF7B2A011C9600E6D434 /* LaundryWeb */ = {
+			isa = PBXGroup;
+			children = (
+				18C2FF7C2A011C9600E6D434 /* AppDelegate.swift */,
+				18C2FF7E2A011C9600E6D434 /* SceneDelegate.swift */,
+				18C2FF802A011C9600E6D434 /* ViewController.swift */,
+				18C2FF822A011C9600E6D434 /* Main.storyboard */,
+				18C2FF852A011C9900E6D434 /* Assets.xcassets */,
+				18C2FF872A011C9900E6D434 /* LaunchScreen.storyboard */,
+				18C2FF8A2A011C9A00E6D434 /* Info.plist */,
+			);
+			path = LaundryWeb;
+			sourceTree = "<group>";
+		};
+		18C2FF922A011C9A00E6D434 /* LaundryWebTests */ = {
+			isa = PBXGroup;
+			children = (
+				18C2FF932A011C9A00E6D434 /* LaundryWebTests.swift */,
+			);
+			path = LaundryWebTests;
+			sourceTree = "<group>";
+		};
+		18C2FF9C2A011C9A00E6D434 /* LaundryWebUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18C2FF9D2A011C9A00E6D434 /* LaundryWebUITests.swift */,
+				18C2FF9F2A011C9A00E6D434 /* LaundryWebUITestsLaunchTests.swift */,
+			);
+			path = LaundryWebUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C2FF782A011C9600E6D434 /* LaundryWeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C2FFA32A011C9A00E6D434 /* Build configuration list for PBXNativeTarget "LaundryWeb" */;
+			buildPhases = (
+				18C2FF752A011C9600E6D434 /* Sources */,
+				18C2FF762A011C9600E6D434 /* Frameworks */,
+				18C2FF772A011C9600E6D434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaundryWeb;
+			productName = LaundryWeb;
+			productReference = 18C2FF792A011C9600E6D434 /* LaundryWeb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C2FF8E2A011C9A00E6D434 /* LaundryWebTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C2FFA62A011C9A00E6D434 /* Build configuration list for PBXNativeTarget "LaundryWebTests" */;
+			buildPhases = (
+				18C2FF8B2A011C9A00E6D434 /* Sources */,
+				18C2FF8C2A011C9A00E6D434 /* Frameworks */,
+				18C2FF8D2A011C9A00E6D434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C2FF912A011C9A00E6D434 /* PBXTargetDependency */,
+			);
+			name = LaundryWebTests;
+			productName = LaundryWebTests;
+			productReference = 18C2FF8F2A011C9A00E6D434 /* LaundryWebTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18C2FF982A011C9A00E6D434 /* LaundryWebUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C2FFA92A011C9A00E6D434 /* Build configuration list for PBXNativeTarget "LaundryWebUITests" */;
+			buildPhases = (
+				18C2FF952A011C9A00E6D434 /* Sources */,
+				18C2FF962A011C9A00E6D434 /* Frameworks */,
+				18C2FF972A011C9A00E6D434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C2FF9B2A011C9A00E6D434 /* PBXTargetDependency */,
+			);
+			name = LaundryWebUITests;
+			productName = LaundryWebUITests;
+			productReference = 18C2FF992A011C9A00E6D434 /* LaundryWebUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C2FF712A011C9600E6D434 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					18C2FF782A011C9600E6D434 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					18C2FF8E2A011C9A00E6D434 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 18C2FF782A011C9600E6D434;
+					};
+					18C2FF982A011C9A00E6D434 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 18C2FF782A011C9600E6D434;
+					};
+				};
+			};
+			buildConfigurationList = 18C2FF742A011C9600E6D434 /* Build configuration list for PBXProject "LaundryWeb" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C2FF702A011C9600E6D434;
+			productRefGroup = 18C2FF7A2A011C9600E6D434 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C2FF782A011C9600E6D434 /* LaundryWeb */,
+				18C2FF8E2A011C9A00E6D434 /* LaundryWebTests */,
+				18C2FF982A011C9A00E6D434 /* LaundryWebUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C2FF772A011C9600E6D434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C2FF892A011C9900E6D434 /* LaunchScreen.storyboard in Resources */,
+				18C2FF862A011C9900E6D434 /* Assets.xcassets in Resources */,
+				18C2FF842A011C9600E6D434 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C2FF8D2A011C9A00E6D434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C2FF972A011C9A00E6D434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C2FF752A011C9600E6D434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C2FF812A011C9600E6D434 /* ViewController.swift in Sources */,
+				18C2FF7D2A011C9600E6D434 /* AppDelegate.swift in Sources */,
+				18C2FF7F2A011C9600E6D434 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C2FF8B2A011C9A00E6D434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C2FF942A011C9A00E6D434 /* LaundryWebTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C2FF952A011C9A00E6D434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C2FF9E2A011C9A00E6D434 /* LaundryWebUITests.swift in Sources */,
+				18C2FFA02A011C9A00E6D434 /* LaundryWebUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C2FF912A011C9A00E6D434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C2FF782A011C9600E6D434 /* LaundryWeb */;
+			targetProxy = 18C2FF902A011C9A00E6D434 /* PBXContainerItemProxy */;
+		};
+		18C2FF9B2A011C9A00E6D434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C2FF782A011C9600E6D434 /* LaundryWeb */;
+			targetProxy = 18C2FF9A2A011C9A00E6D434 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18C2FF822A011C9600E6D434 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C2FF832A011C9600E6D434 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C2FF872A011C9900E6D434 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C2FF882A011C9900E6D434 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C2FFA12A011C9A00E6D434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18C2FFA22A011C9A00E6D434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C2FFA42A011C9A00E6D434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LaundryWeb/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laundryweb.app.LaundryWeb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18C2FFA52A011C9A00E6D434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LaundryWeb/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laundryweb.app.LaundryWeb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18C2FFA72A011C9A00E6D434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laundryweb.app.LaundryWebTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaundryWeb.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LaundryWeb";
+			};
+			name = Debug;
+		};
+		18C2FFA82A011C9A00E6D434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laundryweb.app.LaundryWebTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaundryWeb.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LaundryWeb";
+			};
+			name = Release;
+		};
+		18C2FFAA2A011C9A00E6D434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laundryweb.app.LaundryWebUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LaundryWeb;
+			};
+			name = Debug;
+		};
+		18C2FFAB2A011C9A00E6D434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laundryweb.app.LaundryWebUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LaundryWeb;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C2FF742A011C9600E6D434 /* Build configuration list for PBXProject "LaundryWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C2FFA12A011C9A00E6D434 /* Debug */,
+				18C2FFA22A011C9A00E6D434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C2FFA32A011C9A00E6D434 /* Build configuration list for PBXNativeTarget "LaundryWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C2FFA42A011C9A00E6D434 /* Debug */,
+				18C2FFA52A011C9A00E6D434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C2FFA62A011C9A00E6D434 /* Build configuration list for PBXNativeTarget "LaundryWebTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C2FFA72A011C9A00E6D434 /* Debug */,
+				18C2FFA82A011C9A00E6D434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C2FFA92A011C9A00E6D434 /* Build configuration list for PBXNativeTarget "LaundryWebUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C2FFAA2A011C9A00E6D434 /* Debug */,
+				18C2FFAB2A011C9A00E6D434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C2FF712A011C9600E6D434 /* Project object */;
+}
